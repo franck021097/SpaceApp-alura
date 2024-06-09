@@ -16,7 +16,7 @@ async function headerImage(){
 }
 
 function listaImagenes (){
-    fetch(url+"&count=6")
+    fetch(url+"&count=1")
     .then( response => response.json())
     .then( datosImagenes => {
         console.log(datosImagenes);
